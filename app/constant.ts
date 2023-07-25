@@ -66,7 +66,15 @@ Current time: {{time}}`;
 export const DEFAULT_MODELS = [
   {
     name: "LLAMA-X",
-    available: false,
+    available: true,
+  },
+  {
+    name: "gpt-3.5-turbo",
+    available: true,
+  },
+  {
+    name: "gpt-4",
+    available: true,
   },
 ] as const;
 
